@@ -1,0 +1,171 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  position: relative;
+
+  width: 359px;
+  height: 663px;
+
+  border-radius: 39px;
+  background: #1c1c1c;
+}
+.display {
+}
+
+.display-result {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  display: block;
+
+  position: absolute;
+
+  top: 20%;
+  right: 10%;
+}
+
+.calculator-list {
+  margin-top: 239px;
+  display: flex;
+}
+
+.all-btn {
+  display: flex;
+  align-items: center;
+
+  margin-top: 239px;
+}
+.calculator-list--one {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 10px;
+}
+.calculator-list--two {
+  display: flex;
+  flex-direction: column;
+}
+.calculator-list--three {
+  display: flex;
+  flex-direction: column;
+}
+.calculator-list--four {
+  display: flex;
+  flex-direction: column;
+}
+s .reset {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  background-color: #aeaeae;
+
+  border-radius: 50%;
+
+  width: 80px;
+  height: 80px;
+
+  margin-right: 7px;
+  margin-left: 10px;
+}
+
+.operator,
+.reset {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  background-color: #aeaeae;
+
+  border-radius: 50%;
+
+  width: 80px;
+  height: 80px;
+
+  margin-right: 7px;
+}
+.operator-nmb {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  background-color: #aeaeae;
+
+  border-radius: 50%;
+
+  width: 80px;
+  height: 80px;
+
+  margin-right: 7px;
+}
+
+.operator-four {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  background-color: #ffb800;
+  color: #fff;
+
+  border-radius: 50%;
+
+  width: 80px;
+  height: 80px;
+
+  margin-right: 7px;
+}
+
+.result {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  background-color: #ffb800;
+  color: #fff;
+
+  border-radius: 50%;
+
+  width: 80px;
+  height: 80px;
+
+  margin-right: 7px;
+}
+
+.active {
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  background-color: red;
+  color: #fff;
+
+  border-radius: 50%;
+
+  width: 80px;
+  height: 80px;
+
+  margin-right: 7px;
+}
