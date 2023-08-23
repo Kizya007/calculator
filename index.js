@@ -22,17 +22,21 @@ numbs.forEach((elementNumber) => {
 
 opreators.forEach((elementOperator) => {
   elementOperator.addEventListener("click", () => {
-    let activeBtn = document.querySelector(".active");
-    if (activeBtn) {
-      activeBtn.classList.remove("active");
+    if (numOne) {
+      let activeBtn = document.querySelector(".active");
+      if (activeBtn) {
+        activeBtn.classList.remove("active");
+      }
+      elementOperator.classList.add("active");
     }
-    elementOperator.classList.add("active");
     console.log(elementOperator.textContent);
   });
 });
 
 reset.addEventListener("click", () => {
   let activeBtn = document.querySelector(".active");
+  numOne = "";
+  numTwo = "";
   display.innerHTML = "0";
   if (activeBtn) {
     activeBtn.classList.remove("active");
